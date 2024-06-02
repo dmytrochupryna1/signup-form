@@ -75,7 +75,7 @@ export default function Form() {
                 
             </div> */}
             
-            <button type="submit">Submit</button>
+            <button type="submit">Register</button>
         </form>
 
     )
