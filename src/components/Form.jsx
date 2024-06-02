@@ -63,7 +63,7 @@ export default function Form() {
                 onChange={handleChange}
                 placeholder="Confirm Password"
                 required />
-            <div className="newsletter-line">
+            {/* <div className="newsletter-line">
                 <input
                     type="checkbox"
                     id="newsletter"
@@ -73,7 +73,7 @@ export default function Form() {
                 />
                 <label htmlFor="newsletter">Subscribe to Newsletter</label>
                 
-            </div>
+            </div> */}
             
             <button type="submit">Submit</button>
         </form>
