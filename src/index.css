@@ -22,7 +22,7 @@ form {
   background: rgb(255, 215, 250);
   border-radius: 50%;
   /* border shadow to the right */
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(13, 1, 10, 0.75);
   border: 5px solid black;
 }
 
@@ -61,7 +61,7 @@ button {
   justify-content: center;
   align-items: center;
   /* background: gradient of blue and purple */
-  background: linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(255, 0, 255, 1) 100%);
+  background: linear-gradient(30deg, rgb(95, 95, 252) 0%, rgb(237, 10, 237) 100%);
   font-weight: bold;
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -72,7 +72,7 @@ button {
 
 button:hover {
   /* background: gradient of blue and purple but different */
-  background: linear-gradient(90deg, rgb(153, 0, 255) 0%, rgb(0, 255, 102) 100%);
+  background: linear-gradient(90deg, rgb(0, 255, 4) 0%, rgb(255, 157, 0) 100%);
 
 }
 
