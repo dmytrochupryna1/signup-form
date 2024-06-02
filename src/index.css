@@ -5,7 +5,7 @@ body {
   align-items: center;
   height: 100vh;
   /* margin: 50px; */
-  background: rgb(123, 46, 168);
+  background: rgb(223, 188, 243);
 }
 
 form {
@@ -15,24 +15,42 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 350px;
-  height: 350px;
+  width: 370px;
+  height: 370px;
   border: 1px solid black;
   padding: 30px;
   background: rgb(255, 215, 250);
   border-radius: 50%;
+  /* border shadow to the right */
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border: 5px solid black;
 }
 
 input {
   padding: 5px;
   margin: 5px;
   width: 200px;
+  border-radius: 5px;
+  border: 1px solid rgb(178, 176, 176);
+  height: 20px;
 }
 
 /* for checkbox input, make default width */
 input[type="checkbox"] {
   width: initial;
 }
+input:hover {
+  /* background gradient of light colours */
+  background: linear-gradient(90deg, rgb(225, 247, 221) 0%, rgb(247, 205, 205) 100%);
+}
+
+input:focus {
+  /* background gradient of light colours */
+  background: linear-gradient(90deg, rgb(225, 247, 221) 0%, rgb(247, 205, 205) 100%);
+  /* remove default highlighting */
+  outline: none;
+}
+
 
 button {
   height: 40px;
@@ -41,9 +59,19 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(123, 46, 168);
-  color: white;
+  /* background: gradient of blue and purple */
+  background: linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(255, 0, 255, 1) 100%);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
   border-radius: 25px;
+  cursor: pointer;
+
+}
+
+button:hover {
+  /* background: gradient of blue and purple but different */
+  background: linear-gradient(90deg, rgb(153, 0, 255) 0%, rgb(0, 255, 102) 100%);
 
 }
 
