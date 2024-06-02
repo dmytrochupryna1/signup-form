@@ -49,6 +49,7 @@ input:focus {
   background: linear-gradient(90deg, rgb(225, 247, 221) 0%, rgb(247, 205, 205) 100%);
   /* remove default highlighting */
   outline: none;
+  border: 2px solid rgb(0, 0, 0);
 }
 
 
