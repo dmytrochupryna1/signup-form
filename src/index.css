@@ -67,7 +67,7 @@ button {
   justify-content: center;
   align-items: center;
   /* background: gradient of blue and purple */
-  background: linear-gradient(30deg, rgb(95, 95, 252) 0%, rgb(237, 10, 237) 100%);
+  background:  linear-gradient(315deg, rgb(88, 240, 90) 0%, rgb(28, 151, 96) 100%);
   font-weight: bold;
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -78,7 +78,7 @@ button {
 
 button:hover {
   /* background: gradient of blue and purple but different */
-  background: linear-gradient(315deg, rgb(88, 240, 90) 0%, rgb(28, 151, 96) 100%);
+  background: linear-gradient(30deg, rgb(95, 95, 252) 0%, rgb(237, 10, 237) 100%);
 
 }
 
