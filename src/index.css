@@ -19,11 +19,11 @@ form {
   height: 570px;
   border: 1px solid black;
   padding: 30px;
-  background: linear-gradient(330deg, rgb(225, 247, 221)20%, rgb(247, 205, 205) 50%);
+  background: rgb(237, 240, 255);
   border-radius: 50%;
   /* border shadow to the right */
   box-shadow: 0px 30px 5000px 10px rgba(13, 1, 10, 0.75);
-  border: 5px solid black;
+  border: 5px solid black; 
 }
 
 input {
@@ -35,6 +35,7 @@ input {
   height: 38px;
   font-size: 18px;
   text-indent: 10px;
+  /* font-weight:lighter; */
 }
 
 /* for checkbox input, make default width */
