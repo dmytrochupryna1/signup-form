@@ -1,15 +1,12 @@
 import React, { useState, useId } from "react"
 
 export default function Form() {
-
     const [formData, setFormData] = useState({
         email: "",
         password: "",
         confirmPassword: "",
-        newsletter: true
+        newsletter: false
     })
-
-
     const id = useId() // a custom hook that generates a unique id
 
 
@@ -25,6 +22,14 @@ export default function Form() {
     function handleSubmit(event) {
         event.preventDefault() // prevent the default behavior of the form
         console.log(formData) // log the form data object
+        if (formData.password === formData.confirmPassword) {
+            console.log("Successfully signed up")
+        } else {
+            console.error("passwords do not match")
+        }
+        if (formData.newsletter) {
+            console.log("Thanks for signing up for our newsletter!")
+        }
     }
 
     console.log(formData)

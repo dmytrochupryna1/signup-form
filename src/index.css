@@ -1,20 +1,37 @@
 body {
+  /* align form in the middle of the screen for whatever viewport */
   display: flex;
   justify-content: center;
-  margin: 50px;
+  align-items: center;
+  height: 100vh;
+  /* margin: 50px; */
+  background: rgb(123, 46, 168);
 }
 
 form {
+ 
+  /* vertically align in the cneter */
   display: flex;
   flex-direction: column;
-  width: 200px;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 350px;
   border: 1px solid black;
   padding: 30px;
+  background: rgb(255, 215, 250);
+  border-radius: 50%;
 }
 
 input {
   padding: 5px;
   margin: 5px;
+  width: 200px;
+}
+
+/* for checkbox input, make default width */
+input[type="checkbox"] {
+  width: initial;
 }
 
 button {
@@ -24,6 +41,9 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgb(123, 46, 168);
+  color: white;
+  border-radius: 25px;
 
 }
 
